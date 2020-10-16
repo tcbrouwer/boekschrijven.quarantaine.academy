@@ -1,17 +1,33 @@
 <template>
   <div id="app">
     <Welcome />
+    <Book />
+    <CourseCard :course="upstream" />
     <router-view />
   </div>
 </template>
 
 <script lang="ts">
+// code
+import Book from "@/views/Book.vue"
+import CourseCard from "@/components/CourseCard.vue"
 import Welcome from "@/views/Welcome.vue"
+
+// content
+import upstream from "@/news/upstream.json"
+
 
 export default {
   name: 'App',
   components: {
-    Welcome
+    Book,
+    CourseCard,
+    Welcome,
+  },
+  data() {
+    return {
+      upstream: upstream
+    }
   }
 }
 </script>
