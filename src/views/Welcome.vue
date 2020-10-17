@@ -1,7 +1,7 @@
 <template>
   <div class="m-5">
     <img src="@/assets/logo.png" />
-    <h2>Welkom bij boekschrijven.quarantaine.academy</h2>
+    <h2>Welkom bij boekschrijven.q.a</h2>
     <p>
       Lees mee, of ga zelf aan de slag!
     </p>
