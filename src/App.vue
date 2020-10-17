@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Welcome />
-    <Book />
+    <Book :bookjson="bookjson" />
     <CourseCard :course="upstream" />
     <router-view />
   </div>
@@ -14,6 +14,7 @@ import CourseCard from "@/components/CourseCard.vue"
 import Welcome from "@/views/Welcome.vue"
 
 // content
+import book from "@/content/book.json"
 import upstream from "@/news/upstream.json"
 
 
@@ -26,6 +27,7 @@ export default {
   },
   data() {
     return {
+      bookjson: book,
       upstream: upstream
     }
   }

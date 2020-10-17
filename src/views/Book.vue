@@ -2,7 +2,7 @@
   <div>
     <h1>{{ book.title }}</h1>
     
-    <div v-for="chapter in book.chapters" :key="chapter" class="d-flex justify-content-center">
+    <div v-for="(chapter, index) in book.chapters" :key="index" class="d-flex justify-content-center">
         <Chapter :chapter = chapter />
     </div>  
   </div>

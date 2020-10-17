@@ -1,0 +1,13 @@
+{
+    "title": "Mijn eerste boek",
+    "chapters": [
+        [
+            "Dit is mijn eerste chapter. Ik vind het best wel moeilijk om te schrijven maar ik probeer gewoon wat.",
+            "Kan ik eigenlijk ook over meerdere paragrafen schrijven?"
+        ],
+        [
+            "Het tweede hoofstuk",
+            "En zijn tweede paragraaf"
+        ]
+    ]
+}
